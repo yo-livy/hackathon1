@@ -12,6 +12,29 @@ body {
     background-color: rgb(221, 255, 220);
 }
 
+.container > * {
+    padding: 10px;
+    border: 10px solid black;
+}
+.container {
+    display: grid;
+    grid-template-areas:
+            'header picture'
+            'text picture';
+    
+}
+.header {
+    grid-area: header;
+}
+
+.text {
+    grid-area: text;
+}
+
+.picture {
+    grid-area: picture;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -36,9 +59,4 @@ p {
     font-family: 'Outfit';
     font-size: 24px;
     font-weight: lighter;
-}
-
-
-.title_heading {
-    grid-row: 1/3;
 }
