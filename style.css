@@ -60,3 +60,48 @@ p {
     font-size: 24px;
     font-weight: lighter;
 }
+
+
+
+
+
+
+
+
+.map img:hover {
+    background-image: url("");
+}
+
+form {
+    width: 33%;
+    padding: 100px 20px;
+    background-color: greenyellow;
+    color: black;
+    opacity: 0.7;
+    margin-top: 120px;
+    text-align: center;
+    font-size: 30px;
+}
+
+form input::placeholder {
+    color: lightgrey;
+}
+
+#firstname:focus {
+    width: 300px;
+}
+
+#submit:hover {
+    box-shadow: 5px 5px 5px green;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: green;
+}
