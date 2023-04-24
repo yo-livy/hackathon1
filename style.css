@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: green;
+    background-color: rgb(221, 255, 220);
 }
 
 .navbar {
@@ -33,16 +33,11 @@ h1 {
 }
 
 p {
-    font-family: 'Outift';
+    font-family: 'Outfit';
     font-size: 24px;
     font-weight: lighter;
 }
 
-.grid1 {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 12;
-}
 
 .title_heading {
     grid-row: 1/3;
