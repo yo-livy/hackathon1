@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: green;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.anchor {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+    white-space: nowrap;
+    transition: all 0.40s ease;
+}
+
+h1 {
+    font-family: 'Outfit';
+    font-size: 64px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Outift';
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 12;
+}
+
+.title_heading {
+    grid-row: 1/3;
+}
