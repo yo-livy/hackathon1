@@ -101,36 +101,6 @@ p {
     position: absolute;
 }
 
-
-
-.map img:hover {
-    background-image: url("");
-}
-
-form {
-    width: 33%;
-    padding: 100px 20px;
-    background-color: greenyellow;
-    color: black;
-    opacity: 0.7;
-    margin-top: 120px;
-    text-align: center;
-    font-size: 30px;
-}
-
-form input::placeholder {
-    color: lightgrey;
-}
-
-#firstname:focus {
-    width: 300px;
-}
-
-#submit:hover {
-    box-shadow: 5px 5px 5px green;
-    cursor: pointer;
-}
-
 .parks h2 {
     text-align: center;
     margin: 150px;
@@ -199,6 +169,55 @@ form input::placeholder {
 .container_parks img {
     width: 50vw;
     height: 500px;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+form {
+    background-color: #e5f4e4;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .link {
+    width: 320px;
+    height: 80px;
+    border-radius: 15px;
+    border: none;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    color: #bbb;
+  }
+  
+  .link::placeholder {
+    color: #bbb;
+  }
+  
+  .submit {
+    width: 180px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  #submit:hover {
+    background-color:rgb(212, 200, 127);
+    cursor: pointer;
 }
 
 footer {
